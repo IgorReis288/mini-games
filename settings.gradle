@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven {
+            url "https://jcenter.bintray.com"
+        }
+        maven {
+            url "https://dl.bintray.com/gradle/gradle-plugins"
+        }
+    }
+}
+
+rootProject.name = 'mini-games'
+
+include(":mini-games-third-party")
+project(":mini-games-third-party").projectDir = file("third-party")
+
+
+
