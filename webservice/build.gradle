@@ -1,0 +1,5 @@
+dependencies {
+    implementation(project(":mini-games-business"))
+    implementation(project(":mini-games-third-party"))
+
+}
