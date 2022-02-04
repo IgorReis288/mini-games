@@ -15,5 +15,11 @@ rootProject.name = 'mini-games'
 include(":mini-games-third-party")
 project(":mini-games-third-party").projectDir = file("third-party")
 
+include(":mini-games-business")
+project(":mini-games-business").projectDir = file("business")
+
+include(":mini-games-webservice")
+project(":mini-games-webservice").projectDir = file("webservice")
+
 
 

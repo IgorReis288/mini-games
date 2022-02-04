@@ -1,5 +1,7 @@
 dependencies {
 
+    implementation(project(":mini-games-business"))
+
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
 
